@@ -141,7 +141,7 @@ for line in inputs:
     result = calc_median_degree(sorted_list)
     print "Median Degree:", result
     # Write the output file
-    outputs.writelines(str(result)+"\n")
+    outputs.write("{0:.2f}\n".format(result))
 
 
 
